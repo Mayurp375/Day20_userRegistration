@@ -20,4 +20,9 @@ public class MainTest extends Main {
     }
 
 
+    @Test
+    public void test_Validate_EmailName() {
+        boolean actualValue = Main.validateEmailName("abc.xyz@bl.co.in");
+        Assert.assertEquals(false,actualValue);
+    }
 }
