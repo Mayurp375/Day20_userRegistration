@@ -22,7 +22,7 @@ public class MainTest extends Main {
 
     @Test
     public void test_Validate_EmailName() {
-        boolean actualValue = Main.validateEmailName("abc.xyz@bl.co.in");
+        boolean actualValue = Main.validateEmailName("91 7878787878");
         Assert.assertEquals(false,actualValue);
     }
 }
