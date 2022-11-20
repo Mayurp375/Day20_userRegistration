@@ -13,6 +13,11 @@ public class MainTest extends Main {
         boolean actualValue = Main.validateName("Mayur"); // 15
         Assert.assertEquals(true, actualValue);
     }
+    @Test
+    public void validate_Lastname_with_caharcter(){
+        boolean actualValue = Main.validateName("Polojwar"); // 15
+        Assert.assertEquals(true, actualValue);
+    }
 
 
 }
